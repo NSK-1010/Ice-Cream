@@ -28,21 +28,23 @@ elsif argv0 == "-vvvv" && argv1 == "ice" then
   puts "わかった、わかった。あんたにイースターエッグをあげればどっか行ってくれるかい?"
   exit
 elsif argv0 == "-vvvvv" && argv1 == "ice" then
-  puts "わかったよ。あんたの勝ちだ。"
-  puts "    _________"
-  puts "   /         \"
-  puts "  /           \"
-  puts " /             \"
-  puts "-----------------"
-  puts "\               /"
-  puts " \             /"
-  puts "  \           /"
-  puts "   \         /"
-  puts "    \       /"
-  puts "     \     /"
-  puts "      \   /"
-  puts "       \ /"
-  puts "        V"
+  deta = <<-EOF
+  わかったよ。あんたの勝ちだ。
+      _________
+     /         \
+    /           \
+   /             \
+  -----------------
+  \               /
+   \             /
+    \           /
+     \         /
+      \       /
+       \     /
+        \   /
+         \ /
+          V
+  EOF
   exit
 elsif argv0 == "-vvvvvv" && argv1 == "ice" then
   puts "これは何なのか? もちろんアイスクリームだよ。"
